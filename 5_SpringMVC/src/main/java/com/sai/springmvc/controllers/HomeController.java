@@ -14,8 +14,7 @@ public class HomeController {
 		ModelAndView model = new ModelAndView("home");
 		
 		//adding Model Object 
-		model.addObject("My Name is ", "Sai Srinivas");
-		
+		model.addObject("My Name is ", "Sai Srinivas");		
 		return model;
 		
 	}
